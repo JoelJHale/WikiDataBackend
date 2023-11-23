@@ -1,4 +1,4 @@
-// Retrieves data from Fandom API's for use in front end Web App to preview how settings look on creation.
+// Retrieves data from Fandom API's for use in front end Web App to confirm a sites validity and fill in site data
 module.exports = async function (context, req) {
     const { CosmosClient } = require("@azure/cosmos");
     const endpoint = "";
